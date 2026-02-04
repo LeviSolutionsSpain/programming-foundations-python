@@ -9,3 +9,23 @@ It focuses on concepts such as state, control flow, abstraction, mutability, and
 The material is intentionally incomplete and non-linear. Its purpose is to make core ideas explicit and inspectable, not to serve as a full course.
 
 If this way of reasoning resonates with you and you’re looking for a fully structured path — with deliberate sequencing, progressively harder exercises, and feedback — I’m developing a complete course here: https://levieducation.com/
+
+# How to read this repository
+
+Run the files.
+
+Change the code.
+
+Observe how meaning depends on execution order and state.
+
+Treat confusion as a signal to slow down, not to skip ahead.
+
+# Scope
+
+This repository:
+
+focuses on fundamentals
+
+avoids projects, frameworks, and real-world applications
+
+prioritizes clarity over coverage
