@@ -1,0 +1,46 @@
+"""
+05_errors.py
+
+Errors are not accidents.
+They are part of the program's behavior.
+"""
+
+x = 10
+y = 0
+
+# Uncommenting this line will crash the program:
+# result = x / y
+
+
+# --- Handling errors -------------------------------------------------
+
+try:
+    result = x / y
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+
+
+# --- Errors vs bugs --------------------------------------------------
+#
+# An error is a known failure mode.
+# A bug is an unknown one.
+
+
+# --- Using errors deliberately --------------------------------------
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("b must not be zero")
+    return a / b
+
+# divide(10, 0)
+
+
+# --- Why this matters ------------------------------------------------
+#
+# Errors:
+# - make assumptions explicit
+# - prevent silent failures
+# - document constraints
+#
+# A program without errors is lying.
